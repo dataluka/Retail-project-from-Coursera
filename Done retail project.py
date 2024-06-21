@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[22]:
-
-
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
@@ -29,7 +23,7 @@ print('Analysis completed.')
 
 
 
-# In[23]:
+
 
 
 # Remove rows with missing descriptions
@@ -54,7 +48,6 @@ df.to_csv('cleaned_online_retail.csv', index=False)
 print("\nCleaned dataset saved as 'cleaned_online_retail.csv'")
 
 
-# In[25]:
 
 
 # Visualize the distribution of TotalAmount
@@ -70,7 +63,6 @@ plt.close()
 print("Total Amount distribution plot saved as 'total_amount_distribution.png'")
 
 
-# In[27]:
 
 
 # Analyze sales trends over time
@@ -95,7 +87,6 @@ print("Monthly sales trend plot saved as 'monthly_sales_trend.png'")
 print("Analysis completed.")
 
 
-# In[33]:
 
 
 # Group by StockCode and Description, calculate total quantity and revenue
@@ -132,7 +123,6 @@ plt.close()
 print("Top 10 products by revenue plot saved as 'top_10_products_revenue.png'")
 
 
-# In[38]:
 
 
 # Group by Country and calculate total sales
@@ -153,7 +143,7 @@ plt.close()
 print("Sales by country plot saved as 'sales_by_country.png'")
 
 
-# In[36]:
+
 
 
 # Analyze product distribution across top 5 countries
@@ -180,7 +170,7 @@ plt.close()
 print("Top products by country plot saved as 'top_products_by_country.png'")
 
 
-# In[ ]:
+
 
 
 

@@ -1,2 +1,1 @@
-# Retail-project-from-Coursera
-Project done from specific instructions gave by coursera course
+I am trying to do some stuff, i am a begineer

@@ -1,1 +1,1 @@
-I am trying to do some stuff, i am a begineer
+I am trying to do some stuff, i am a beginner
